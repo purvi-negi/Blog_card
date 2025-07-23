@@ -35,6 +35,7 @@ body{
     margin:2px 5px 15px 20px;
     font-family: 'Figtree';
     
+    
 }
 .category{
     font-size: 12px;
@@ -86,4 +87,49 @@ body{
     font-size: 14px;
     color: hsl(0, 0%, 7%);
     font-weight: 800;
+}
+@media (max-width: 375px) {
+    .blog-card {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+
+    }
+    .image-main img {
+        height: 200px;
+
+    }
+    .contentOfBlockCard h3 {
+        font-size: 20px;
+        
+    }
+      .contentOfBlockCard,.author{
+        margin: 7px 15px;
+      }
+    .description {
+        font-size: 14px;
+
+    }
+    .category {
+        margin: 5px auto;
+    }
+    .author {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .blog-card {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .image-main img {
+        height: 220px;
+    }
+    .contentOfBlockCard h3 {
+        font-size: 24px;
+    }
+    .description {
+        font-size: 16px;
+    }
 }
